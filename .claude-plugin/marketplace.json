@@ -5,14 +5,14 @@
     "email": "support@omni.co"
   },
   "metadata": {
-    "description": "Official Omni Analytics skills for Claude Code — explore models, run queries, build dashboards, and manage your Omni instance programmatically.",
+    "description": "Official Omni Analytics skills for Claude Code — explore models, run queries, build dashboards, embed analytics, and manage your Omni instance programmatically.",
     "version": "1.0.0"
   },
   "plugins": [
     {
       "name": "omni-analytics",
       "source": "./plugins/omni-analytics",
-      "description": "Explore, query, model, and manage Omni Analytics through the REST API. Includes 7 skills: model exploration, querying, model building, content browsing, content building, AI optimization, and administration.",
+      "description": "Explore, query, model, embed, and manage Omni Analytics through the REST API and embed SDK. Includes 8 skills: model exploration, querying, model building, content browsing, content building, embedding, AI optimization, and administration.",
       "version": "1.0.0",
       "author": {
         "name": "Omni Analytics"
@@ -33,7 +33,10 @@
         "dashboards",
         "queries",
         "blobby",
-        "ai-context"
+        "ai-context",
+        "embed",
+        "iframe",
+        "white-label"
       ],
       "category": "data"
     }
